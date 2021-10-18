@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+
+	"header": {
+		"name": "Doubutsu",
+		"description": "Adds animals",
+		"uuid": "2af7b3c4-64c2-43c7-8a00-0bce0bc495f3",
+		"version": [1, 0, 0],
+
+		"base_game_version": [1, 17, 1]
+
+	},
+    
+	"metadata": {
+		"authors": [
+			"Yanasakana"
+		],
+		"license": "MIT"
+	},
+
+	"modules": [
+		{
+			"type": "data",
+
+			"uuid": "54bfcafa-1b48-4dc1-a722-d1f711adfad1",
+			"version": [1, 0, 0]
+		}
+	]
+}
