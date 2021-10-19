@@ -1,0 +1,27 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"yanasakana:red_panda": {
+				"events": {
+					"ambient": "mob.red_panda.ambient",
+					"attack": "mob.red_panda.bite",
+					"death": "mob.red_panda.death",
+					"eat": "mob.red_panda.eat",
+					"hurt": "mob.red_panda.hurt",
+					"mad": "mob.red_panda.aggro",
+					"sleep": "mob.red_panda.sleep"
+				},
+				"pitch": [
+					0.65,
+					0.90
+				],
+				"volume": 1.0
+			}
+		}
+	},
+	"individual_event_sounds": {
+		"events": {}
+	},
+	"interactive_sounds": {},
+	"block_sounds": {}
+}

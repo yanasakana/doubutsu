@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "yanasakana:red_panda",
+			"scripts": {
+				"animate": [
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"animations": {
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.red_panda.baby_transform",
+				"crouch": "animation.red_panda.crouch",
+				"sleep": "animation.red_panda.sleep",
+				"sit": "animation.red_panda.sit",
+				"wiggle": "animation.red_panda.wiggle",
+				"pounce": "animation.red_panda.pounce",
+				"move": "controller.animation.red_panda.move"
+			},
+			"textures": {
+				"default": "textures/entity/red_panda"
+			},
+			"geometry": {
+				"default": "geometry.red_panda"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "red_panda_spawn_egg"
+			}
+		}
+	}
+}

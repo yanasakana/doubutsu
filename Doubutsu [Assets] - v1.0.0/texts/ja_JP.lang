@@ -1,0 +1,21 @@
+##Code all done by @yanagisenpaidev
+##2021/5/20
+##やなぎ#2957
+
+
+
+##動物
+entity.yana:deer.name=鹿
+item.spawn_egg.entity.yana:deer.name=鹿をスポーンさせる
+entity.yana:grizzly_bear.name=灰色熊
+item.spawn_egg.entity.yana:grizzly_bear.name=灰色熊をスポーンさせる
+
+##アイテム
+item.yana:venison_raw=生の鹿肉
+item.yana:venison_cooked=調理した鹿肉
+item.yana:deer_antler=鹿のアントラー
+
+item.yana:bear_raw=生の熊肉
+item.yana:bear_cooked=調理した熊肉
+item.yana:bear_fur=灰色熊の毛皮
+item.yana:bear_skin_head=灰色熊の頭

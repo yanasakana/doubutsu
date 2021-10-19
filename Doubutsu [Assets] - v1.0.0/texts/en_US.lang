@@ -1,0 +1,27 @@
+##Code done by @yanasakanadev
+##2021/5/20
+##やなぎ#2957
+
+
+
+##Entities
+entity.yana:deer.name=Deer
+item.spawn_egg.entity.yana:deer.name=Spawn Deer
+entity.yana:beaver.name=Beaver
+item.spawn_egg.entity.yana:beaver.name=Spawn Beaver
+entity.yana:grizzly_bear.name=Grizzly Bear
+item.spawn_egg.entity.yana:grizzly_bear.name=Spawn Grizzly Bear
+entity.yana:owl.name=Owl
+item.spawn_egg.entity.yana:owl.name=Spawn Owl
+
+##DropItems
+item.yana:venison_raw=Raw Venison
+item.yana:venison_cooked=Cooked Venison
+item.yana:deer_antler=Deer's Antler
+
+item.yana:bear_raw=Raw Bear Meat
+item.yana:bear_cooked=Cooked Bear Meat
+item.yana:bear_fur=Bear Fur
+item.yana:bear_skin_head=Bear Skin
+entity.yanasakana:red_panda.name=Red Panda
+item.spawn_egg.entity.yanasakana:red_panda.name=Spawn Red Panda
