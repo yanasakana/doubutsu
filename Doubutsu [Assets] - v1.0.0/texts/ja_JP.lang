@@ -10,6 +10,8 @@ pack.name=§g§oDoubutsu
 ## エンティティ
 entity.yanasakana:red_panda.name=レッサーパンダ
 item.spawn_egg.entity.yanasakana:red_panda.name=レッサーパンダをスポーンさせる
+entity.yanasakana:leaf_sheep.name=リーフ　シープ
+item.spawn_egg.entity.yanasakana:leaf_sheep.name=リーフ　シープをスポーンさせる
 
 ## ドロップ
 

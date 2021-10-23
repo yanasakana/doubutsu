@@ -10,6 +10,8 @@ pack.name=§g§oDoubutsu
 ## Entities
 entity.yanasakana:red_panda.name=Red Panda
 item.spawn_egg.entity.yanasakana:red_panda.name=Spawn Red Panda
+entity.yanasakana:leaf_sheep.name=Leaf Sheep
+item.spawn_egg.entity.yanasakana:leaf_sheep.name=Spawn Leaf Sheep
 
 ## DropItems
 
