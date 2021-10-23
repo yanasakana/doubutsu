@@ -12,7 +12,7 @@
 				]
 			},
 			"animations": {
-				"walk": "animation.quadruped.walk",
+				"walk": "animation.red_panda.walk",
 				"look_at_target": "animation.common.look_at_target",
 				"baby_transform": "animation.red_panda.baby_transform",
 				"crouch": "animation.red_panda.crouch",
@@ -23,7 +23,8 @@
 				"move": "controller.animation.red_panda.move"
 			},
 			"textures": {
-				"default": "textures/entity/red_panda"
+				"default": "textures/entity/red_panda/red_panda",
+				"sleeping": "textures/entity/red_panda/red_panda_sleeping"
 			},
 			"geometry": {
 				"default": "geometry.red_panda"

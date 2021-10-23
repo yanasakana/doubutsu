@@ -1,21 +1,21 @@
-##Code all done by @yanagisenpaidev
-##2021/5/20
+##Code and Translations done by @yanasakanadev
+##2021/10/22
 ##やなぎ#2957
 
+## パック
+pack.description=Furry friends! A vastly improved, blocky biodiversity! §d@yanasakanadev
+pack.name=§g§oDoubutsu
 
 
-##動物
-entity.yana:deer.name=鹿
-item.spawn_egg.entity.yana:deer.name=鹿をスポーンさせる
-entity.yana:grizzly_bear.name=灰色熊
-item.spawn_egg.entity.yana:grizzly_bear.name=灰色熊をスポーンさせる
+## エンティティ
+entity.yanasakana:red_panda.name=レッサーパンダ
+item.spawn_egg.entity.yanasakana:red_panda.name=レッサーパンダをスポーンさせる
 
-##アイテム
-item.yana:venison_raw=生の鹿肉
-item.yana:venison_cooked=調理した鹿肉
-item.yana:deer_antler=鹿のアントラー
+## ドロップ
 
-item.yana:bear_raw=生の熊肉
-item.yana:bear_cooked=調理した熊肉
-item.yana:bear_fur=灰色熊の毛皮
-item.yana:bear_skin_head=灰色熊の頭
+
+## 早いテンプレート
+
+### エンティティ
+####entity.yanasakana:エンティティ.name=エンティティ
+####item.spawn_egg.entity.yanasakana:エンティティ.name=エンティティをスポーンさせる
