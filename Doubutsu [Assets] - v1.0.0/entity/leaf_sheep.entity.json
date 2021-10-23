@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "yanasakana:leaf_sheep",
+			"scripts": {
+				"animate": [
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"look_at_target",
+					"move"
+				]
+			},
+			"animations": {
+				"moving": "animation.leaf_sheep.move",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.leaf_sheep.baby_transform",
+				"move": "controller.animation.leaf_sheep.move"
+			},
+			"textures": {
+				"default": "textures/entity/leaf_sheep"
+			},
+			"geometry": {
+				"default": "geometry.leaf_sheep"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "leaf_sheep_spawn_egg"
+			}
+		}
+	}
+}

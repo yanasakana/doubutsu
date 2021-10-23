@@ -38,9 +38,6 @@
 							"sleep": "query.is_sleeping"
 						},
 						{
-							"stuck": "query.is_stunned"
-						},
-						{
 							"sit": "query.is_sitting"
 						}
 					]
@@ -78,20 +75,6 @@
 					"transitions": [
 						{
 							"default": "!query.is_sleeping"
-						}
-					]
-				},
-				"stuck": {
-					"animations": [
-						"stuck",
-						{
-							"walk": "math.cos(query.life_time * 20.0 * 53.7)"
-						}
-					],
-					"blend_transition": 0.2,
-					"transitions": [
-						{
-							"default": "!query.is_stunned"
 						}
 					]
 				},

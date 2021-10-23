@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.leaf_sheep.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.4,
+					"transitions": [
+						{
+							"moving": "query.modified_move_speed"
+						}
+					]
+				},
+				"moving": {
+					"animations": [
+						"moving"
+					],
+					"blend_transition": 0.4,
+					"transitions": [
+						{
+							"default": "!query.modified_move_speed"
+						}
+					]
+				}
+			}
+		}
+	}
+}

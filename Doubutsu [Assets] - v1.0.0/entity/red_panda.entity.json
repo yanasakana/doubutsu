@@ -33,7 +33,7 @@
 				"default": "entity_alphatest"
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.red_panda"
 			],
 			"spawn_egg": {
 				"texture": "red_panda_spawn_egg"

@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17.40",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "yanasakana:leaf_sheep",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {},
+        "component_groups": {},
+        "events": {}
+    }
+}
