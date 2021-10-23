@@ -3,17 +3,17 @@
 		"entities": {
 			"yanasakana:red_panda": {
 				"events": {
-					"ambient": "mob.red_panda.ambient",
-					"attack": "mob.red_panda.bite",
-					"death": "mob.red_panda.death",
-					"eat": "mob.red_panda.eat",
-					"hurt": "mob.red_panda.hurt",
-					"mad": "mob.red_panda.aggro",
-					"sleep": "mob.red_panda.sleep"
+					"ambient": "mob.panda.idle",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"sleep": "mob.fox.sleep"
 				},
 				"pitch": [
-					0.65,
-					0.90
+					1.0,
+					1.6
 				],
 				"volume": 1.0
 			}

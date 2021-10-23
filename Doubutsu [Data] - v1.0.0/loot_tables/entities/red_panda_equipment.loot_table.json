@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bamboo",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:egg",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    // TODO: Change to iron knife with Poachers
+                    "name": "minecraft:iron_sword",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
