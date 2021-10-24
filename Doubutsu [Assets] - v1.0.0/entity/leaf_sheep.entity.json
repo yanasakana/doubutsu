@@ -12,12 +12,14 @@
 					"move"
 				]
 			},
+
 			"animations": {
-				"moving": "animation.leaf_sheep.move",
-				"look_at_target": "animation.common.look_at_target",
+				"moving": "animation.leaf_sheep.moving",
+				"look_at_target": "animation.leaf_sheep.look_at_target",
 				"baby_transform": "animation.leaf_sheep.baby_transform",
 				"move": "controller.animation.leaf_sheep.move"
 			},
+
 			"textures": {
 				"default": "textures/entity/leaf_sheep"
 			},

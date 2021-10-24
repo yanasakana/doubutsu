@@ -853,7 +853,7 @@
 				}
 			}
 		},
-		"animation.red_panda.baby_transform": {
+		"animation.leaf_sheep.baby_transform": {
 			"loop": true,
 			"bones": {
 				"head": {
@@ -863,6 +863,17 @@
 						"query.is_baby ? 4.0 : 0.0"
 					],
 					"scale": "query.is_baby ? 1.2 : 1.0"
+				}
+			}
+		},
+		"animation.leaf_sheep.look_at_target" : {
+			"loop" : true,
+			"bones" : {
+				"head" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation" : [ "(query.target_x_rotation - this) / 5", 0.0, 0.0 ]
 				}
 			}
 		}

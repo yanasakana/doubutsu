@@ -82,8 +82,8 @@
             "minecraft:jump.static": {},
             "minecraft:can_climb": {},
             "minecraft:collision_box": {
-                "width": 0.9,
-                "height": 0.9
+                "width": 0.5,
+                "height": 0.5
             },
             "minecraft:leashable": {
                 "soft_distance": 4.0,
