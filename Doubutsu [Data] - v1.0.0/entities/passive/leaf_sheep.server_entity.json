@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.0",
+    "format_version": "1.17.40",
     "minecraft:entity": {
         "description": {
             "identifier": "yanasakana:leaf_sheep",
@@ -35,6 +35,12 @@
                 "minecraft:loot": {
                     "table": "loot_tables/entities/leaf_sheep.loot_table.json"
                 }
+            },
+            "minecraft:leaf_sheep_grower": {
+                "minecraft:grows_crop": {
+                    "charges": 10,
+                    "chance": 0.06
+                }
             }
         },
         "components": {
@@ -56,9 +62,32 @@
                 "value": 10,
                 "max": 10
             },
-            "minecraft:grows_crop": {
-                "charges": -1,
-                "chance": 0.075
+            // "minecraft:grows_crop": {
+            //     "charges": 16,
+            //     "chance": 0.075
+            // },
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "use_item": true,
+                        "cooldown": 30,
+                        "play_sounds": "eat",
+                        "interact_text": "action.interact.feed",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "glow_berries"
+                                    }
+                                ]
+                            },
+                            "event": "leaf_sheep:renew_charge"
+                        }
+                    }
+                ]
             },
             "minecraft:hurt_on_condition": {
                 "damage_conditions": [
@@ -170,6 +199,23 @@
                 "add": {
                     "component_groups": [
                         "minecraft:leaf_sheep_adult"
+                    ]
+                }
+            },
+            "leaf_sheep:renew_charge": {
+                "run_command": {
+                    "command": [
+                        "particle minecraft:villager_happy ~ ~1 ~"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "minecraft:leaf_sheep_grower"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "minecraft:leaf_sheep_grower"
                     ]
                 }
             }

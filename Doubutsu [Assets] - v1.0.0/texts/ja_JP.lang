@@ -15,6 +15,9 @@ item.spawn_egg.entity.yanasakana:leaf_sheep.name=リーフ　シープをスポ�
 
 ## ドロップ
 
+## インタラクション
+action.interact.feed=食わせる
+
 
 ## 早いテンプレート
 

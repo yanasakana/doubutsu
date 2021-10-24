@@ -16,6 +16,10 @@ item.spawn_egg.entity.yanasakana:leaf_sheep.name=Spawn Leaf Sheep
 ## DropItems
 
 
+## Interactions
+action.interact.feed=Feed
+
+
 ## Quick Templates
 
 ### Entity
