@@ -16,6 +16,32 @@
 					1.6
 				],
 				"volume": 1.0
+			},
+			"yanasakana:leaf_sheep": {
+				"events": {
+					"ambient": {
+						"sound": "mob.drowned.say",
+						"pitch": [
+							1.7,
+							2.1
+						]
+					},
+					"death": {
+						"sound": "mob.parrot.death",
+						"pitch": [
+							1.5,
+							1.9
+						]
+					},
+					"hurt": {
+						"sound": "mob.parrot.hurt",
+						"pitch": [
+							1.3,
+							1.7
+						]
+					}
+				},
+				"volume": 1.0
 			}
 		}
 	},
