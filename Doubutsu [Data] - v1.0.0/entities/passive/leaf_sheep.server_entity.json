@@ -56,6 +56,10 @@
                 "value": 10,
                 "max": 10
             },
+            "minecraft:grows_crop": {
+                "charges": -1,
+                "chance": 0.075
+            },
             "minecraft:hurt_on_condition": {
                 "damage_conditions": [
                     {
@@ -71,7 +75,7 @@
                 ]
             },
             "minecraft:movement": {
-                "value": 0.07
+                "value": 0.09
             },
             "minecraft:navigation.walk": {
                 "can_path_over_water": true,
